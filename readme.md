@@ -1,41 +1,59 @@
-# gomod
+# gomodexample2
 
-This is a template I use to create my go module templates.
+> gomodexample2
 
-# Usage 
+<div align="center">
+<a 
+    href="https://github.com/parro-it/gomodexample2/blob/main/go.mod#L3" style="display: inline">
+    <img 
+        alt="Go Version" 
+        src="https://img.shields.io/github/go-mod/go-version/parro-it/gomodexample2?style=flat&logo=go">
+</a>
+<a 
+    href="https://github.com/parro-it/gomodexample2/actions/workflows/go.yml" 
+    style="display: inline"> 
+    <img 
+        alt="Tests Status" 
+        src="https://img.shields.io/github/workflow/status/parro-it/gomodexample2/Test/main?style=flat&label=Tests&logo=github">
+</a>
+<a 
+    href="https://codeclimate.com/github/parro-it/gomodexample2/test_coverage"
+    style="display: inline"> 
+    <img 
+        alt="Coverage" 
+        src="https://img.shields.io/codeclimate/coverage/parro-it/gomodexample2?style=flat&label=Coverage&logo=code-climate">
+</a>
+<a 
+    href="https://codeclimate.com/github/parro-it/gomodexample2" 
+    style="display: inline"> 
+    <img 
+        alt="Code Climate" 
+        src="https://img.shields.io/codeclimate/maintainability/parro-it/gomodexample2?style=flat&label=Code-Climate&logo=code-climate">
+</a> 
+<a 
+    href="https://pkg.go.dev/github.com/parro-it/gomodexample2" 
+    style="display: inline"> 
+    <img 
+        alt="Docs" 
+        src="https://img.shields.io/badge/Docs-go.dev-blue?logo=go&logoColor=white&style=flat">
+</a>
+</div>
 
-TLDR: click on 'use template' button above, have fun!
 
-# How it work
 
-When you create a new repository from this template,
-[initialize](.github/workflows/initialize.yml) GitHub action 
-is executed on your newly created repository.
+# Documentation
 
-The `initialize` action install and run 
-[templatedir](github.com/parro-it/templatedir)
-command (you can look there for details of what it 
-does, but it basically render any file 
-in the repository which has a `.template` 
-extension and a Go template syntax. 
+* See [examples](examples_test.go) of use.
+* Read the API docs on [go.dev](https://pkg.go.dev/github.com/parro-it/gomodexample2).
 
-Rendered templates are saved to disk 
-with the same filename but without `.template`.
-Template files are deleted, and then all these changes
-are committed back to your repository.
+# Contributing
 
-# Customize this template.
-
-You can have a look at the `.template`
-files in this repository as examples
-of use if you want to make your own template
-based on [templatedir](github.com/parro-it/templatedir).
-
+* Pull request are welcome!
+* Open an issue if you find a bug.
+* If you want to request a new feature or need help, starts a [new discussion](https://github.com/parro-it/gomodexample2/discussions/new).
+* Read [contribution guidelines](contributing.md).
 
 # License
 [MIT Licensed](LICENSE)
 
 © 2021 Andrea Parodi
-
-
-

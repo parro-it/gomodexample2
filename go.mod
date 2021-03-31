@@ -1,4 +1,4 @@
-module github.com/{{.Author}}/{{.RepoName}}
+module github.com/parro-it/gomodexample2
 
 go 1.16
 

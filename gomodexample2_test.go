@@ -1,4 +1,4 @@
-package {{.RepoName}}
+package gomodexample2
 
 import (
 	"embed"
