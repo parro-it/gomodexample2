@@ -1,0 +1,7 @@
+// {{.Repo.Description}}
+package {{.RepoName}}
+
+// Func answers
+func Func() int {
+	return 42
+}
